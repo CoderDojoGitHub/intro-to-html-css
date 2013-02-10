@@ -1,4 +1,5 @@
-Intro-to-HTML-CSS
+Intro to HTML and CSS
 =================
 
-Introduction to HTML/CSS for CoderDojo
+# Requirements
+
