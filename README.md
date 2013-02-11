@@ -115,7 +115,7 @@ Our HTML file is going to be pretty basic at first.
 </html>
 ```
 
-One more thing! We didn't create that CSS file for nothing so let's make sure that the HTML file knows that it exists. Add the following line to your <head>
+One more thing! We didn't create that CSS file for nothing so let's make sure that the HTML file knows that it exists. Add the following line to your `<head>`
 
 	<link rel="stylesheet" href="styles.css">
 
