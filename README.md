@@ -89,4 +89,36 @@ To "save" your changes simply click outside of the edit window.
 
 **Warning: If you refresh your web page, any modifications that you made to the page within Chrome Developer Tools will not be saved**
 
-##  
+## Creating Your Website
+
+Open up your preferred text editor and we're going to create two files. 
+
+				index.html
+ 				styles.css
+
+For simplicity's sake, be sure to save them in the same folder.
+
+Let's work with the HTML file first. We're going to set up the basic framework for a webpage.
+
+### Building your Index.html file
+
+Our HTML file is going to be pretty basic at first. 
+
+```html
+<html> 
+	<head>
+		<title> John's Cool Website </title>
+	</head>
+	<body>
+		<h1> Hello! </h1>
+	</body>
+</html>
+```
+
+One more thing! We didn't create that CSS file for nothing so let's make sure that the HTML file knows that it exists. Add the following line to your '<head>'
+
+				<link rel="stylesheet" href="styles.css">
+
+### Building your styles.css file
+
+		
