@@ -55,3 +55,38 @@ We all know that you can't code a T-Shirt so let's take a look at what a real we
 
 ## Using Chrome Developer Tools
 
+Chrome has done us the favor of including some wonderful development tools into the web browser that you're already using. They're not only a great way to see how someone else made that really cool hover effect, but also a great way to experiment in real time without having to constantly refresh the page you are working on.
+
+To start, load up your favorite website. Mine is http://diy.org
+
+### Inspect an Element
+
+The inspect tool is one of the tools we will be playing with today. The inspect tool can tell you everything there is to know about an element on the page. To inspect something, just right click on it and select "inspect element"
+
+If you already have your developer tools open, you can click the magnifying glass in the bottom-left corner of the screen and then simply click on the element that you want to inspect.
+
+Now that you've selected an element, take a look at the right hand side of the screen. This is where you'll see the CSS code that is describing the selected element. 
+
+```css				
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+```
+
+A great thing about this tool is how you can make edits to these   properties and see your changes in real time. Try clicking once on a number (like 13px in **font-size: 13px**) and use the up and down arrow keys on your keyboard to watch it change.
+
+### Edit HTML
+
+You may also want to edit your HTML in real time. Chrome makes this easy. Simply right the text that goes with the element you are inspecting and click "Edit as HTML"
+
+To "save" your changes simply click outside of the edit window.
+
+**Warning: If you refresh your web page, any modifications that you made to the page within Chrome Developer Tools will not be saved**
+
+##  
