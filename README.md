@@ -93,8 +93,8 @@ To "save" your changes simply click outside of the edit window.
 
 Open up your preferred text editor and we're going to create two files. 
 
-				index.html
- 				styles.css
+	index.html
+ 	styles.css
 
 For simplicity's sake, be sure to save them in the same folder.
 
@@ -115,9 +115,9 @@ Our HTML file is going to be pretty basic at first.
 </html>
 ```
 
-One more thing! We didn't create that CSS file for nothing so let's make sure that the HTML file knows that it exists. Add the following line to your '<head>'
+One more thing! We didn't create that CSS file for nothing so let's make sure that the HTML file knows that it exists. Add the following line to your <head>
 
-				<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
 
 ### Building your styles.css file
 
