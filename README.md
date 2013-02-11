@@ -1,5 +1,6 @@
 # Intro to HTML and CSS
 
+
 ## Requirements
 
 We'll need two things for this lesson. A good text editor and Google Chrome. We're going to standardize the use of Google Chrome for this particular lesson thanks to something called [vendor prefixes](http://css-tricks.com/how-to-deal-with-vendor-prefixes/). However, if Google Chrome isn't your favorite browser, feel free to ask a mentor how you can make your project run in Firefox or other modern browsers.
@@ -22,6 +23,7 @@ Download and open **Text Wrangler**
 Download and open **Google Chrome**
 
 * [http://google.com/chrome](http://google.com/chrome)
+
 
 ## What is HTML and CSS?
 
@@ -52,6 +54,7 @@ John's Shirt
 The CSS describes all of the things that makes my shirt unique. Just as my shirt probably doesn't look like the one that you are wearing, my website probably doesn't look like your website. 
 
 We all know that you can't code a T-Shirt so let's take a look at what a real website looks like. 
+
 
 ## Using Chrome Developer Tools
 
@@ -89,6 +92,7 @@ To "save" your changes simply click outside of the edit window.
 
 **Warning: If you refresh your web page, any modifications that you made to the page within Chrome Developer Tools will not be saved**
 
+
 ## Creating Your Website
 
 Open up your preferred text editor and we're going to create two files. 
@@ -120,5 +124,25 @@ One more thing! We didn't create that CSS file for nothing so let's make sure th
 	<link rel="stylesheet" href="styles.css">
 
 ### Building your styles.css file
+
+So far, we don't have a whole lot of elements on our page that we can modify. There is a header and a body. But we'll work with that just to make sure that our stylesheet is being referenced properly.
+
+Let's change the background color to blue.
+
+```css
+.body {
+	background-color: blue;
+}
+```
+
+Save your changes and refresh your page, the background should now be blue!
+
+### What's next?
+
+So far, all of this is pretty plain but CSS can actually do some pretty neat stuff. Take a look at https://github.com/404 for a taste of the kind of thing we'll be making.
+
+
+## Creating our animated object
+ 
 
 		
