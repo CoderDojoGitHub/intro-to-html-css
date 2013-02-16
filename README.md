@@ -252,7 +252,7 @@ Awesome! When using the border radius to create a circle, be sure to make your b
 Alright, so our circles are stacked on top of eachother and that's no good. Let's define a left side and a right side class. 
 
 In your styles.css
-```
+```css
 .left {
   left:62px;
 }
