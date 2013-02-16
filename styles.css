@@ -22,13 +22,6 @@ body {
   -webkit-animation: beat .7s ease 0s infinite normal;
 }
 
-.heart.center {
-  background: #B80734;
-}
-
-.heart.top {
-  z-index:3;
-}
 
 .side {
   top:50px;
@@ -42,12 +35,11 @@ body {
   height:210px;
   bottom:100px;
   left:145px;
-  font-size:0;
-  text-indent:-9999px;
 }
 
 .left {
   left:62px;
+  z-index: 3;
 }
 
 .right {
