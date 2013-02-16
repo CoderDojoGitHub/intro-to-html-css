@@ -130,7 +130,7 @@ So far, we don't have a whole lot of elements on our page that we can modify. Th
 Let's change the background color to blue.
 
 ```css
-.body {
+body {
 	background-color: blue;
 }
 ```
@@ -186,7 +186,7 @@ In your styles.css
 .heart {
   position:absolute;
   z-index:2;
-  background: #B80734;
+  background-color: #B80734;
 }
 ```
 
